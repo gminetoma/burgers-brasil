@@ -1,0 +1,75 @@
+:root {
+  --primary-color: #262626;
+  --secondary-color: #268B1F;
+  --tertiary-color: #867759;
+  --font-color: #E2E8CE;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--primary-color);
+  color: var(--font-color);
+}
+
+h1 {
+  color: var(--secondary-color);
+  font-weight: 700;
+}
+
+h2 {
+  color: var(--tertiary-color);
+
+}
+
+h3 {
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.15s;
+}
+
+a:hover {
+  color: var(--tertiary-color);
+}
+
+.svg {
+  filter: invert(98%) sepia(6%) saturate(774%) hue-rotate(17deg) brightness(97%) contrast(88%);
+}
+
+.menu__nav__icon {
+  filter: invert(98%) sepia(6%) saturate(774%) hue-rotate(17deg) brightness(97%) contrast(88%);
+}
+
+.navbar-brand {
+  font-family: 'Dancing Script', cursive;
+  font-size:xx-large;
+  font-weight: 600;
+  color: var(--font-color);
+
+  transition: color 0.15s;
+}
+
+.navbar-brand:hover {
+  color: var(--secondary-color);
+}
+
+.bg-logo {
+  height: 100%;
+  z-index: -1;
+  opacity: 0.1;
+}
+
+.card {
+  background-color: var(--tertiary-color);
+}
+
+.card__tittle {
+  color: var(--primary-color);
+}
+
+.card__tittle:hover {
+  color: var(--font-color);
+}
